@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend-hdlee
-          image: hdlee/frontend-hdlee
+          image: hdlee/frontend-service
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
